@@ -63,8 +63,8 @@ st.markdown('<p class="sub-header">Select a tracker to get started</p>', unsafe_
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    if st.button("📋 UTAH NA ", key="readiness_btn", use_container_width=True, type="primary"):
-        st.switch_page("pages/1_Process_Readiness.py")
+    if st.button("📋 UTAH NA ", key="utah_btn", use_container_width=True, type="primary"):
+        st.switch_page("pages/1_UTAH_NA.py")
 
 with col2:
     if st.button("🎯 Milestone Tracker Dashboard", key="milestone_btn", use_container_width=True, type="primary"):
@@ -72,8 +72,8 @@ with col2:
 
 
 with col3:
-    if st.button(" 📋 DALLAS NA ", key="risk_btn", use_container_width=True, type="primary"):
-        st.switch_page("pages/3_Risk_Issue_Tracker.py")
+    if st.button(" 📋 DALLAS NA ", key="dallas_btn", use_container_width=True, type="primary"):
+        st.switch_page("pages/3_DALLAS_NA.py")
 
 
 
